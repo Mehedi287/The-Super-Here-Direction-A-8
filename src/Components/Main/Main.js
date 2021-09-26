@@ -7,6 +7,7 @@ const Main = () => {
     const [developers, setDevelopers] = useState([])
     const [cart, setCart] = useState([])
     useEffect(() => {
+        // call api 
         fetch('./fakeApi.json')
             .then(res => res.json())
             .then(data => {
@@ -14,6 +15,7 @@ const Main = () => {
 
             })
     }, [])
+    // handle abb cart button 
     const handleCart = (developer) => {
         const newCart = [...cart, developer]
         setCart(newCart)
@@ -30,6 +32,7 @@ const Main = () => {
                         ></Developers>)
                     }
                 </div>
+
                 <div className="show-information">
                     <Card cart={cart}></Card>
                 </div>
