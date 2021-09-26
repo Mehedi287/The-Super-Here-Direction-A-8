@@ -3,7 +3,7 @@
     grid-template-columns: 3fr 1fr;
 }
 .show-information{
-border-left: 3px solid rgb(201, 204, 207);
+    border-left: 3px solid rgb(201, 204, 207);
 }
 .show-result{ 
     display: grid;
