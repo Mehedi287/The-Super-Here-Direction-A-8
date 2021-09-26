@@ -1,0 +1,13 @@
+.name{
+    color: rgb(4, 4, 34);
+    border: 1px solid rgb(117, 124, 105);
+    background-color: khaki;
+    border-radius: 10px;
+  
+}
+.total{
+    font-size: 20px;
+}
+.cart-info{
+    padding: 10px;
+}

@@ -13,7 +13,7 @@ const Developers = (props) => {
             <p>ID : {id}</p>
             <p>Catagory : {catagory} </p>
             <p>Exprience : {exprience}</p>
-            <button><i class="fas fa-cart-plus"></i>Add To Cart</button>
+            <button onClick={() => props.handleCart(props.developer)}><i class="fas fa-cart-plus"></i>Add To Cart</button>
         </div>
 
     );
