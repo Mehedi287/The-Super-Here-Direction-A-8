@@ -13,7 +13,7 @@ const Developers = (props) => {
             <p>ID : {id}</p>
             <p>Catagory : {catagory} </p>
             <p>Exprience : {exprience}</p>
-            <button>Add To Cart</button>
+            <button><i class="fas fa-cart-plus"></i>Add To Cart</button>
         </div>
 
     );

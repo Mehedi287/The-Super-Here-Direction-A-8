@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Card from '../Card/Card';
 import Developers from '../Developers/Developers';
 import './Main.css'
 
@@ -21,7 +22,7 @@ const Main = () => {
                     }
                 </div>
                 <div className="show-information">
-                    <h3>show informatin</h3>
+                    <Card developer={developers}></Card>
                 </div>
             </div>
 
