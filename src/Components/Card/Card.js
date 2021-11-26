@@ -3,6 +3,7 @@ import './Card.css'
 const Card = (props) => {
     console.log(props.cart);
     let totalSalary = 0;
+    // total salary 
     props.cart.map(salary => { totalSalary = totalSalary + salary.salary })
     return (
         <div className="cart-info">
